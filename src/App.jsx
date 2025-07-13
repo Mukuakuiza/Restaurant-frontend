@@ -2,6 +2,7 @@ import Hero from "./components/Hero.jsx";
 import Navbar from "./components/Navbar.jsx";
 import Dishes from "./components/Dishes.jsx";
 import About from "./components/About.jsx";
+import Mission from "./components/Mission.jsx";
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
           <Navbar/>
           <Dishes/>
           <About/>
+          <Mission/>
       </main>
   )
 }
