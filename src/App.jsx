@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar.jsx";
 import Dishes from "./components/Dishes.jsx";
 import About from "./components/About.jsx";
 import Mission from "./components/Mission.jsx";
+import Expertise from "./components/Expertise.jsx";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
           <Dishes/>
           <About/>
           <Mission/>
+          <Expertise/>
       </main>
   )
 }
