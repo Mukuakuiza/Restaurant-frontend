@@ -5,6 +5,7 @@ import About from "./components/About.jsx";
 import Mission from "./components/Mission.jsx";
 import Expertise from "./components/Expertise.jsx";
 import Review from "./components/Review.jsx";
+import Contact from "./components/Contact.jsx";
 
 
 function App() {
@@ -14,10 +15,11 @@ function App() {
           <Hero/>
           <Navbar/>
           <Dishes/>
-          <About/>
           <Mission/>
           <Expertise/>
           <Review/>
+          <About/>
+          <Contact/>
       </main>
   )
 }

@@ -17,10 +17,10 @@ import { FaXTwitter, FaFacebook, FaInstagram } from "react-icons/fa6";
 
 export const LINKS = [
   { text: "Dishes", targetId: "dishes" },
-  { text: "About", targetId: "about" },
   { text: "Mission", targetId: "mission" },
   { text: "Expertise", targetId: "expertise" },
   { text: "Review", targetId: "review" },
+  { text: "About", targetId: "about" },
   { text: "Contact", targetId: "contact" },
 ];
 
@@ -119,8 +119,8 @@ export const REVIEW = {
 };
 
 export const CONTACT = [
-  { key: "address", value: "Address: 123 Main Street, Paris, France, 345678" },
-  { key: "phone", value: "Phone: 123-456-7890" },
+  { key: "address", value: "Address: 155 Long Street, Cape Town, South Africa" },
+  { key: "phone", value: "Phone: +2781-980-3234" },
   { key: "email", value: "Email: contact@restaurant.com" },
 ];
 
