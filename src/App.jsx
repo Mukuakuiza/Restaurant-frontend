@@ -6,6 +6,7 @@ import Mission from "./components/Mission.jsx";
 import Expertise from "./components/Expertise.jsx";
 import Review from "./components/Review.jsx";
 import Contact from "./components/Contact.jsx";
+import Footer from "./components/Footer.jsx";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Review/>
           <About/>
           <Contact/>
+          <Footer/>
       </main>
   )
 }
