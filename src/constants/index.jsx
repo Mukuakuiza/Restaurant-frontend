@@ -9,13 +9,14 @@ import dish8 from "../assets/dish8.jpeg";
 import dish9 from "../assets/dish9.jpeg";
 import dish10 from "../assets/dish10.jpeg";
 
-import italian from "../assets/italian.jpeg";
-import japanese from "../assets/japanese.jpeg";
-import indian from "../assets/indian.jpeg";
+import African from "../assets/African.jpg";
+import western from "../assets/western.jpg";
+import indian from "../assets/indian.jpg";
 
 import { FaXTwitter, FaFacebook, FaInstagram } from "react-icons/fa6";
 
 export const LINKS = [
+  { text: "Home", targetId: "hero" },
   { text: "Dishes", targetId: "dishes" },
   { text: "Mission", targetId: "mission" },
   { text: "Expertise", targetId: "expertise" },
@@ -27,7 +28,7 @@ export const LINKS = [
 export const DISHES = [
   {
     image: dish1,
-    title: "Spaghetti Carbonara",
+    title: "Spaghetti and S",
     description: "Creamy pasta with bacon and cheese",
   },
   {
@@ -42,7 +43,7 @@ export const DISHES = [
   },
   {
     image: dish4,
-    title: "Sushi Roll",
+    title: "Eggs Benedict Roll",
     description: "Assorted seafood and vegetables wrapped in seaweed and rice",
   },
   {
@@ -52,17 +53,17 @@ export const DISHES = [
   },
   {
     image: dish6,
-    title: "Greek Salad",
+    title: "In house Greek Salad",
     description: "Crisp lettuce, olives, feta cheese, and tangy dressing",
   },
   {
     image: dish7,
-    title: "Pad Thai",
+    title: "Meat Warara Green",
     description: "Stir-fried rice noodles with shrimp, tofu, and peanuts",
   },
   {
     image: dish8,
-    title: "Peking Duck",
+    title: "Peking Duck Fish",
     description: "Crispy duck with pancakes, cucumber, and hoisin sauce",
   },
   {
@@ -90,17 +91,17 @@ export const MISSION =
 export const CUSINES = [
   {
     number: "01.",
-    image: italian,
-    title: "Italian",
+    image: African,
+    title: "African Cuisine",
     description:
-      "Experience the flavors of Italy with our exquisite Italian cuisine, featuring traditional recipes and contemporary dishes.",
+      "Experience the flavors of really African with our exquisite cuisine, featuring traditional recipes and contemporary dishes.",
   },
   {
     number: "02.",
-    image: japanese,
-    title: "Japanese",
+    image: western,
+    title: "Western Cuisine",
     description:
-      "Delight in the art of Japanese culinary excellence, offering a fusion of classic and modern flavors.",
+      "Delight in the art of Western culinary excellence, offering a fusion of classic and modern flavors.",
   },
   {
     number: "03.",
@@ -112,14 +113,17 @@ export const CUSINES = [
 ];
 
 export const REVIEW = {
-  name: "Xaviour Fernando",
+  name: "Mwanza Kutuama",
   profession: "Food Critic",
   content:
     "“As a seasoned food critic, my expectations are always high when stepping into a new dining establishment. Restaura, with its unassuming exterior and elegantly designed interior, promised a unique culinary experience from the moment I walked in. And I must say, it delivered beyond my expectations.”",
 };
 
 export const CONTACT = [
-  { key: "address", value: "Address: 155 Long Street, Cape Town, South Africa" },
+  {
+    key: "address",
+    value: "Address: 155 Long Street, Cape Town, South Africa",
+  },
   { key: "phone", value: "Phone: +2781-980-3234" },
   { key: "email", value: "Email: contact@restaurant.com" },
 ];
