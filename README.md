@@ -12,7 +12,7 @@ This is a responsive and animated frontend website built for a modern restaurant
 
 ## 🛠️ Tech Stack
 
-- **React** – JavaScript library for building user interfaces.
+- **React+Vite** – JavaScript library for building user interfaces.
 - **Tailwind CSS** – Utility-first CSS framework for rapid UI development.
 - **Framer Motion** – Animation library for smooth transitions and effects.
 
@@ -43,8 +43,15 @@ This is a responsive and animated frontend website built for a modern restaurant
 ### 📦 Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/restaurant-frontend.git
+git clone https://github.com/Mukuakuiza/restaurant-frontend.git
 cd restaurant-frontend
+
+````Install Dependencies
+npm install
+
+Run the Development Server
+To start the Vite development server:
+npm run dev
 
 
 
