@@ -1,12 +1,50 @@
-# React + Vite
+# 🍽️ Restaurant Website - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Project Overview
 
-Currently, two official plugins are available:
+This is a responsive and animated frontend website built for a modern restaurant using the React tech stack. The project is focused on delivering a smooth user experience, modern design, and mobile-first responsiveness. It includes multiple sections such as Home, Dishes, Mission, Expertise, Review, About, and Contact — all designed to showcase a restaurant's offerings and brand identity.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+<img width="1912" height="909" alt="restaura" src="https://github.com/user-attachments/assets/80d7c6a5-fa62-4465-8d16-ebd680714958" />
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🚀 **Live Demo**: [Click here to view the website](https://restaura-cpt.vercel.app/)
+
+## 🛠️ Tech Stack
+
+- **React** – JavaScript library for building user interfaces.
+- **Tailwind CSS** – Utility-first CSS framework for rapid UI development.
+- **Framer Motion** – Animation library for smooth transitions and effects.
+
+---
+
+## 📂 Features
+
+- 🔥 **Home** – Hero section with branding and visual appeal.
+- 🍛 **Dishes** – A grid of featured meals with descriptions.
+- 🎯 **Mission** – Explanation of the restaurant's purpose and core values.
+- 👨‍🍳 **Expertise** – Highlights of chef experience and culinary skills.
+- 🌟 **Review** – Customer testimonials or ratings.
+- 🧾 **About** – Brief background of the restaurant.
+- 📬 **Contact** – Contact form or contact information for reservations or inquiries.
+
+---
+
+## 🎨 UI & Responsiveness
+
+- Fully responsive across desktop, tablet, and mobile.
+- Clean and modern design using Tailwind’s utility classes.
+- Smooth scrolling and entry animations powered by Framer Motion.
+
+---
+
+## 🚀 Getting Started
+
+### 📦 Clone the Repository
+
+```bash
+git clone https://github.com/your-username/restaurant-frontend.git
+cd restaurant-frontend
+
+
+
