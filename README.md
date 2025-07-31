@@ -38,16 +38,7 @@ This is a responsive and animated frontend website built for a modern restaurant
 
 ---
 
-📁 Folder Structure
-├── public/                 # Static assets
-├── src/
-│   ├── assets/            # Images and icons
-│   ├── components/        # Reusable components
-│   ├── contents/             # all required constants
-│   ├── App.jsx            # Main app component
-│   └── main.jsx           # App entry point
-├── index.html
-└── tailwind.config.js     # Tailwind configuration
+
 
 ## 🚀 Getting Started
 
